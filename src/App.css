@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+
+}
+
+
+
+body {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background-color: #e6e6e6;
+  color: #323232;
+  /* text-align: center; */
+}
+
+.header {
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #919191;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.div-title p {
+  background-color: #1fbdbd;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  /* flex-wrap: wrap; */
+}
+
+.div-right {
+  /* background-color: #fff; */
+  padding: 20px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 20px;
+  width: 50%;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.div1 {
+  background-color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.div2 {
+  background-color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.div-left {
+  background-color: #1fbdbd;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+/* .div-right, .div-left {
+  width: 50%;
+  margin-bottom: 20px;
+} */
+
+.form-label {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #323232;
+}
+
+.form-text, h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+h6 {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #323232;
+}
+
+.button {
+  border: 0;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.fleche {
+  width: 25px;
+  margin: 5px 0;
+
+}
+
+.inscription {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    font-size: 20px;
+    
+}
+
+h6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inscription button {
+    margin: 0;
+}
+
+.signup-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #1fbdbd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #e6e6e6;
+    border-top: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: #00B1B7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .div {
+    flex-wrap: wrap;
+  }
+
+ .div-right, .div-left {
+  width: 100%;
+ } 
+}
